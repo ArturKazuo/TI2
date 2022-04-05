@@ -44,4 +44,5 @@ main{
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin: 30px 0px 30px 0px;
 }
