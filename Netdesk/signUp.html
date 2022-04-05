@@ -9,9 +9,9 @@
     <script src="https://kit.fontawesome.com/0cc1b7e656.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="index.css" type="text/css">
+    <link rel="stylesheet" href="login.css" type="text/css">
     <link rel="stylesheet" href="anuncio.css" type="text/css">
-    <script src="script/index.js" defer></script>
-    <script src="script/anuncio.js" defer></script>
+    <script src="script/login.js" defer></script>
 
     <title>Netdesk</title>
 </head>
@@ -32,27 +32,42 @@
     </nav>
 
 
-
     <section class="main">
         <main class="mainClass">
-            <div class="chosenAnuncioDiv">
-                <h1>Computador i9, GTX 1060 ti</h1>
-                <div class= "chosenAnuncioBorder">
-                    <p>
-                        Descrição: Alugo o meu computador com processador i9, placa de vídeo GTX 1060 ti, 16gb de ram e 1tb de ssd.
-                    </p>
-                    <p>
-                        Valor: R$100,00 por hora.
-                    </p>
+            <div class="loginDiv">
+                <h3>
+                    Criar Conta
+                </h3>
+                <div class="login">
+                    <div class="labelContainer" id="labelContainer">
+                        <input class="inputC inputL" id="nomeInput" type="text" placeholder=" " required>
+                        <label id="label" for="nomeInput">
+                            Nome
+                        </label> 
+                    </div>
+                    <div class="labelContainer" id="labelContainer">
+                        <input class="inputC inputL" id="emailInput" type="text" placeholder=" " required>
+                        <label id="label" for="emailInput">
+                            Email
+                        </label> 
+                    </div>
+                    <div class="labelContainer" id="labelContainer">
+                        <input class="inputC inputL" id="CPFInput" type="text" placeholder=" " required>
+                        <label id="label" for="CPFInput">
+                            CPF
+                        </label> 
+                    </div>
+                </div>
+                <div>
+                    <button id="btn" class="btn" onclick="createAccount()">Criar Conta</button>
                 </div>
             </div>
         </main>
     </section>
 
 
-
     <section class="footer">
-        <footer id="footer">
+        <footer>
             <div>
                 <p>PUC Minas - Trabalho Interdisciplinar II - 2022</p>
             </div>
