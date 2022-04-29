@@ -1,4 +1,4 @@
-package Ex2;
+package model;
 
 public class Comentario {
 	private String comment;

@@ -1,9 +1,10 @@
-package Ex2;
+package dao;
 
 import java.sql.*;
+import model.Comentario;
 
 public class DAO {
-	private Connection conexao;
+	protected Connection conexao;
 	
 	public DAO() {
 		conexao = null;
